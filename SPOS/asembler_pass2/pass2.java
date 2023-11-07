@@ -52,7 +52,8 @@ public class pass2 {
         System.out.println("\nINDEX\tLITERAL\tADDRESS");
         for(int i=0;i<total_ltr;i++)
             System.out.println((i+1)+"\t"+literal_table[i].name+"\t"+literal_table[i].addr);
-        BufferedReader br2=new BufferedReader(new FileReader("C:\\Users\\vasek\\Documents\\SPOS\\assemblerPass1\\output.txt"));
+        BufferedReader br2=new BufferedReader(new FileReader("C:\\Users\\vasek\\Documents\\SPOS\\assembler_pass2\\input.txt"));
+        //add input.txt in the folder
         String line;
         boolean symbol_error=false,undef_mnemonic=false;
         System.out.println("\n*******Output FILE*****\n\n");
